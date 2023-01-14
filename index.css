@@ -1,0 +1,81 @@
+:root {
+    --color1: #2f3e46;
+    --color2: #354f52;
+    --color3: #52796f;
+    --color4: #84a98c;
+    --color5: #cad2c5;
+
+}
+body {
+    margin : 0px;
+}
+
+h1 {
+    font-size: max(min(48px,5vw),32px);
+}
+h2 {
+    font-size : max(min(36px,4vw),28px);
+}
+h3 {
+    font-size : max(min(32px, 3.5vw), 24px);
+}
+
+.main-page-unified-theme {
+    font-family : Arial;
+}
+
+@media only screen and (min-width: 601px) {
+    .page-contents{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page-contents {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+
+.navbar-on-the-top {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 44px;
+    z-index: 50;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+}
+
+.main-page-contents {
+    margin: auto;
+    top : 1px;
+}
+
+.black-div {
+    width:100%;
+    top:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    background-color: black;
+    color : white;
+}
+
+#pre-header {
+    height:15vw;
+
+    text-align: center;
+    color:white;
+}
+
+#header {
+    
+    position:relative;
+    text-align: center;
+    color:white;
+}
